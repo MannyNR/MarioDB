@@ -1,0 +1,13 @@
+{
+ "scripts": {
+  "start": "node server.js",
+  "dev": "nodemon server.js",
+  "db:seed": "node seed/data.js"
+ },
+ "devDependencies": {
+  "nodemon": "^2.0.15"
+ },
+ "dependencies": {
+  "cors": "^2.8.5"
+ }
+}

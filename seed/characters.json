@@ -1,36 +1,68 @@
 [
   {
   "name": "Mario",
-  "firstAppearance":"Donkey Kong 1981",
+  "image": "https://mario.wiki.gallery/images/3/3e/MPSS_Mario.png",
+  "firstAppearance":"Donkey Kong, (1981)",
   "goodGuy": true,
   "species": "Human",
-  "descritpions":"Mario's main traits are his red hat, thick mustache, Italian accent, cheerful personality, heavy use of power-ups, and high jumping ability."
+  "description":"Mario's main traits are his red hat, thick mustache, Italian accent, cheerful personality, heavy use of power-ups, and high jumping ability."
 },
 {
   "name": "Luigi",
-  "firstAppearance":"Mario Bros. 1983",
+  "image": "https://mario.wiki.gallery/images/7/72/MPSS_Luigi.png",
+  "firstAppearance":"Mario Bros., (1983)",
   "goodGuy": true,
   "species": "Human",
-  "descritpions": "Luigi is portrayed as the taller, young brother of Mario, and is usually seen dressed in a green shirt, dark blue overalls, and a green hat with the letter L. "
+  "description": "Luigi is portrayed as the taller, young brother of Mario, and is usually seen dressed in a green shirt, dark blue overalls, and a green hat with the letter L. "
 },
 {
   "name": "Princess Peach",
-  "firstAppearance":"Super Mario Bros. 1985",
+  "image": "https://mario.wiki.gallery/images/2/21/MPSS_Peach.png",
+  "firstAppearance":"Super Mario Bros., 1985",
   "goodGuy": true,
   "species": "Human",
-  "descriptions": "Peach is generally known for being sweet, gentle, graceful, and well mannered. Usually, she never shows aggressiveness when she fights or confronts her enemies. Peach is also willing to have Bowser team up with her and the Mario Bros. when a bigger threat attacks the Mushroom Kingdom."
+  "description": "Peach is generally known for being sweet, gentle, graceful, and well mannered. Usually, she never shows aggressiveness when she fights or confronts her enemies. Peach is also willing to have Bowser team up with her and the Mario Bros. when a bigger threat attacks the Mushroom Kingdom."
 },
 {
   "name": "Toad",
-  "firstAppearance": "Super Mario Bros. 1985",
+  "image": "https://mario.wiki.gallery/images/8/89/MPS_Toad_Artwork.png",
+  "firstAppearance": "Super Mario Bros., (1985)",
   "goodGuy": true,
   "species": "Mushroom",
-  "descriptions": "a humanoid mushroom that is both a single character and the collective name of the 'Mushroom People' found in the Mushroom Kingdom. The Toad species first appeared in Super Mario Bros. as seven guards that serve Princess Peach, called Mushroom Retainers."
+  "description": "A humanoid mushroom that is both a single character and the collective name of the 'Mushroom People' found in the Mushroom Kingdom. The Toad species first appeared in Super Mario Bros. as seven guards that serve Princess Peach, called Mushroom Retainers."
 },
 {
   "name":"Bowser",
-  "firstAppearance": "Super Mario Bros. 1985",
+  "image": "https://mario.wiki.gallery/images/7/7d/MSOGT_Bowser.png",
+  "firstAppearance": "Super Mario Bros., (1985)",
   "goodGuy": true,
   "species": "Turtle",
   "description": "Bowser's defining traits are his monstrous appearance with dragon-like elements, full-throated roar, fire-breathing abilities, cruel personality, bestial reptilian voice, never-ending conflict with Mario, and unrequited crush for Peach."
-}]
+},
+{
+  "name":"Diddy Kong",
+  "image": "https://mario.wiki.gallery/images/0/06/DiddyKong2.png",
+  "firstAppearance": "Donkey Kong Country, (1994)",
+  "goodGuy": true,
+  "species": "Monkey",
+  "description":"Diddy Kong is Donkey Kong's sidekick and best friend. Originally supposed to be Donkey Kong's nephew."
+},
+{
+  "name":"Donkey Kong",
+  "image": "https://mario.wiki.gallery/images/8/84/MPS_Donkey_Kong_Artwork.png",
+  "firstAppearance": "Donkey Kong, (1981)",
+  "goodGuy": true,
+  "species": "Monkey",
+  "description":"Mario's original rival from the Classic Donkey Kong, eventually got his own series."
+},
+{
+
+  "name":"Waluigi",
+  "image": "https://mario.wiki.gallery/images/2/27/SuperMarioParty_Waluigi.png",
+  "firstAppearance": "Mario Tennis, (2000)",
+  "goodGuy": true,
+  "species": "Human",
+  "description":"He is supposed to be Luigi's rival and Wario's partner. His name is a portmanteau of Luigi's name and the Japanese adjective warui (悪い) meaning 'bad'; hence, a 'bad Luigi'"
+}
+
+]

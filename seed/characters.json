@@ -7,8 +7,30 @@
   "descritpions":"Mario's main traits are his red hat, thick mustache, Italian accent, cheerful personality, heavy use of power-ups, and high jumping ability."
 },
 {
-  
-}
-
-
-]
+  "name": "Luigi",
+  "firstAppearance":"Mario Bros. 1983",
+  "goodGuy": true,
+  "species": "Human",
+  "descritpions": "Luigi is portrayed as the taller, young brother of Mario, and is usually seen dressed in a green shirt, dark blue overalls, and a green hat with the letter L. "
+},
+{
+  "name": "Princess Peach",
+  "firstAppearance":"Super Mario Bros. 1985",
+  "goodGuy": true,
+  "species": "Human",
+  "descriptions": "Peach is generally known for being sweet, gentle, graceful, and well mannered. Usually, she never shows aggressiveness when she fights or confronts her enemies. Peach is also willing to have Bowser team up with her and the Mario Bros. when a bigger threat attacks the Mushroom Kingdom."
+},
+{
+  "name": "Toad",
+  "firstAppearance": "Super Mario Bros. 1985",
+  "goodGuy": true,
+  "species": "Mushroom",
+  "descriptions": "a humanoid mushroom that is both a single character and the collective name of the 'Mushroom People' found in the Mushroom Kingdom. The Toad species first appeared in Super Mario Bros. as seven guards that serve Princess Peach, called Mushroom Retainers."
+},
+{
+  "name":"Bowser",
+  "firstAppearance": "Super Mario Bros. 1985",
+  "goodGuy": true,
+  "species": "Turtle",
+  "description": "Bowser's defining traits are his monstrous appearance with dragon-like elements, full-throated roar, fire-breathing abilities, cruel personality, bestial reptilian voice, never-ending conflict with Mario, and unrequited crush for Peach."
+}]

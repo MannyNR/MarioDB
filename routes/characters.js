@@ -9,4 +9,8 @@ router.post("/characters", controllers.createCharacter);
 router.put("/characters/:id", controllers.updateCharacter);
 router.delete("/characters/:id", controllers.deleteCharacter);
 
+<<<<<<< HEAD
 export default router;
+=======
+export default router;
+>>>>>>> routes

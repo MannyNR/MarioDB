@@ -1,9 +1,10 @@
 [
   {
   "name": "Mario",
-  "firstAppearance":"Jumpman in Donkey Kong",
+  "firstAppearance":"Donkey Kong 1981",
   "goodGuy": true,
-  "gender": "Male"
+  "species": "Human",
+  "descritpions":"Mario's main traits are his red hat, thick mustache, Italian accent, cheerful personality, heavy use of power-ups, and high jumping ability."
 },
 {
   

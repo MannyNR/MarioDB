@@ -9,7 +9,7 @@ mongoose.set("returnOriginal", false);
 mongoose
   .connect(MONGODB_URI)
   .catch((error) =>
-    console.error("Error connecting to MongoDB: ", error.message)
+    console.error(chalk.red("Error connecting to MongoDB: ", error.message))
   );
 
 mongoose.connection.on("disconnected", () =>

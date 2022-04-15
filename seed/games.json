@@ -2,7 +2,7 @@
   {
     "name": "Mario Kart 64",
     "yearReleased": 1996,
-    "Console": "Nintendo 64",
+    "console": "Nintendo 64",
     "maxPlayerNumber": 4,
     "onlinePlay": false,
     "playableCharacters": []
@@ -10,7 +10,7 @@
   {
     "name": "Donkey Kong",
     "yearReleased": 1981,
-    "Console": "Arcade",
+    "console": "Arcade",
     "maxPlayerNumber": 1,
     "onlinePlay": false,
     "playableCharacters": []
@@ -18,7 +18,7 @@
   {
     "name": "Mario Bros",
     "yearReleased": 1983,
-    "Console": "NES",
+    "console": "NES",
     "maxPlayerNumber": 2,
     "onlinePlay": false,
     "playableCharacters": []
@@ -26,7 +26,7 @@
   {
     "name": "Super Mario Bros",
     "yearReleased": 1985,
-    "Console": "NES",
+    "console": "NES",
     "maxPlayerNumber": 2,
     "onlinePlay": false,
     "playableCharacters": []
@@ -34,7 +34,7 @@
   {
     "name": "Smash Bros Melee",
     "yearReleased": 2001,
-    "Console": "Gamecube",
+    "console": "Gamecube",
     "maxPlayerNumber": 4,
     "onlinePlay": false,
     "playableCharacters": []
@@ -42,7 +42,7 @@
   {
     "name": "Mario and Luigi: Bowser's Inside Story",
     "yearReleased": 2009,
-    "Console": "Nintendo DS",
+    "console": "Nintendo DS",
     "maxPlayerNumber": 1,
     "onlinePlay": false,
     "playableCharacters": []
@@ -50,7 +50,7 @@
   {
     "name": "Mario Tennis Aces",
     "yearReleased": 2018,
-    "Console": "Nintendo Switch",
+    "console": "Nintendo Switch",
     "maxPlayerNumber": 4,
     "onlinePlay": true,
     "playableCharacters": []
@@ -58,7 +58,7 @@
   {
     "name": "Super Princess Peach",
     "yearReleased": 2005,
-    "Console": "Nintendo DS",
+    "console": "Nintendo DS",
     "maxPlayerNumber": 1,
     "onlinePlay": false,
     "playableCharacters": []
@@ -66,7 +66,7 @@
   {
     "name": "Super Mario Maker 2",
     "yearReleased": 2015,
-    "Console": "Nintendo Switch",
+    "console": "Nintendo Switch",
     "maxPlayerNumber": 4,
     "onlinePlay": true,
     "playableCharacters": []
@@ -74,7 +74,7 @@
   {
     "name": "Super Mario World",
     "yearReleased": 1990,
-    "Console": "Super NES",
+    "console": "Super NES",
     "maxPlayerNumber": 2,
     "onlinePlay": false,
     "playableCharacters": []

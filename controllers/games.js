@@ -13,10 +13,10 @@ export const getGames = async (req, res) => {
 export const getGame = async (req, res) => {
   try {
     const { id } = req.params;
-    const game = await Game.findById(id).populate("members");
+    const game = await Game.findById(id).populate("playableCharacters");
 
     if (game) {
-      return res.json(house);
+      return res.json(game);
     }
 
     res.status(400).json({ message: "Game not found!" });
@@ -28,22 +28,22 @@ export const getGame = async (req, res) => {
 
 export const createGame = async (req, res) => {
   try {
-    const house = new Game(req.body);
-    await house.save();
-    res.status(201).json(house);
+    const game = new Game(req.body);
+    await game.save();
+    res.status(201).json(game);
   } catch (error) {
     console.log(error);
     res.status(500).json({ error: error.message });
   }
 };
 
-export const updateHouse = async (req, res) => {
+export const updateGame = async (req, res) => {
   const { id } = req.params;
-  const house = await Game.findByIdAndUpdate(id, req.body);
+  const game = await Game.findByIdAndUpdate(id, req.body);
   res.status(200).json(game);
 };
 
-export const deleteHouse = async (req, res) => {
+export const deleteGame = async (req, res) => {
   try {
     const { id } = req.params;
     const deleted = await Game.findByIdAndDelete(id);

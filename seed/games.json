@@ -1,6 +1,7 @@
 [
   {
     "name": "Mario Kart 64",
+    "image": "https://mario.wiki.gallery/images/5/5f/MK64_Cover.png",
     "yearReleased": 1996,
     "console": "Nintendo 64",
     "maxPlayerNumber": 4,
@@ -9,6 +10,7 @@
   },
   {
     "name": "Donkey Kong",
+    "image": "https://mario.wiki.gallery/images/e/e0/Donkey_Kong_Arcade_side_art.png",
     "yearReleased": 1981,
     "console": "Arcade",
     "maxPlayerNumber": 1,
@@ -17,6 +19,7 @@
   },
   {
     "name": "Mario Bros",
+    "image": "https://mario.wiki.gallery/images/5/54/MarioBrosFlyer.png",
     "yearReleased": 1983,
     "console": "NES",
     "maxPlayerNumber": 2,
@@ -25,6 +28,7 @@
   },
   {
     "name": "Super Mario Bros",
+    "image": "https://mario.wiki.gallery/images/6/6b/SMB_USA_box_art.jpg",
     "yearReleased": 1985,
     "console": "NES",
     "maxPlayerNumber": 2,
@@ -33,6 +37,7 @@
   },
   {
     "name": "Smash Bros Melee",
+    "image": "https://mario.wiki.gallery/images/b/b8/SSBM_cover_art.jpg",
     "yearReleased": 2001,
     "console": "Gamecube",
     "maxPlayerNumber": 4,
@@ -41,6 +46,7 @@
   },
   {
     "name": "Mario and Luigi: Bowser's Inside Story",
+    "image": "https://mario.wiki.gallery/images/1/10/Bowsersinsidestorycover.jpg",
     "yearReleased": 2009,
     "console": "Nintendo DS",
     "maxPlayerNumber": 1,
@@ -49,6 +55,7 @@
   },
   {
     "name": "Mario Tennis Aces",
+    "image": "https://mario.wiki.gallery/images/4/40/MTA_boxart.png",
     "yearReleased": 2018,
     "console": "Nintendo Switch",
     "maxPlayerNumber": 4,
@@ -57,6 +64,7 @@
   },
   {
     "name": "Super Princess Peach",
+    "image": "https://mario.wiki.gallery/images/6/6d/Super_Princess_Peach_box_art.png",
     "yearReleased": 2005,
     "console": "Nintendo DS",
     "maxPlayerNumber": 1,
@@ -65,6 +73,7 @@
   },
   {
     "name": "Super Mario Maker 2",
+    "image": "https://mario.wiki.gallery/images/e/e5/SMM2_Box_Art.png",
     "yearReleased": 2015,
     "console": "Nintendo Switch",
     "maxPlayerNumber": 4,
@@ -73,6 +82,7 @@
   },
   {
     "name": "Super Mario World",
+    "image": "https://mario.wiki.gallery/images/d/da/Super_Mario_World_Box.png",
     "yearReleased": 1990,
     "console": "Super NES",
     "maxPlayerNumber": 2,

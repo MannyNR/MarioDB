@@ -8,6 +8,7 @@
   "nodemon": "^2.0.15"
  },
  "dependencies": {
+  "chalk": "^5.0.1",
   "cors": "^2.8.5"
  }
 }

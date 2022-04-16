@@ -8,7 +8,7 @@ let Game = new Schema({
   console: { type: String },
   maxPlayerNumber: { type: Number },
   onlinePlay: { type: Boolean },
-  playableCharacters: [{ type: Schema.Types.name, ref: "characters" }],
+  playableCharacters: [{ type: Schema.Types.ObjectId, ref: "characters" }]
 });
 
 export default mongoose.model("games", Game);

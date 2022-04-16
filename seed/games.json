@@ -6,7 +6,7 @@
     "console": "Nintendo 64",
     "maxPlayerNumber": 4,
     "onlinePlay": false,
-    "playableCharacters": []
+    "playableCharacters": ["Mario"]
   },
   {
     "name": "Donkey Kong",
@@ -24,7 +24,7 @@
     "console": "NES",
     "maxPlayerNumber": 2,
     "onlinePlay": false,
-    "playableCharacters": []
+    "playableCharacters": ["Mario"]
   },
   {
     "name": "Super Mario Bros",
@@ -33,7 +33,7 @@
     "console": "NES",
     "maxPlayerNumber": 2,
     "onlinePlay": false,
-    "playableCharacters": []
+    "playableCharacters": ["Mario"]
   },
   {
     "name": "Smash Bros Melee",
@@ -42,7 +42,7 @@
     "console": "Gamecube",
     "maxPlayerNumber": 4,
     "onlinePlay": false,
-    "playableCharacters": []
+    "playableCharacters": ["Mario"]
   },
   {
     "name": "Mario and Luigi: Bowser's Inside Story",
@@ -51,7 +51,7 @@
     "console": "Nintendo DS",
     "maxPlayerNumber": 1,
     "onlinePlay": false,
-    "playableCharacters": []
+    "playableCharacters": ["Mario"]
   },
   {
     "name": "Mario Tennis Aces",
@@ -60,7 +60,7 @@
     "console": "Nintendo Switch",
     "maxPlayerNumber": 4,
     "onlinePlay": true,
-    "playableCharacters": []
+    "playableCharacters": ["Mario"]
   },
   {
     "name": "Super Princess Peach",
@@ -69,7 +69,7 @@
     "console": "Nintendo DS",
     "maxPlayerNumber": 1,
     "onlinePlay": false,
-    "playableCharacters": []
+    "playableCharacters": ["Princess Peach"]
   },
   {
     "name": "Super Mario Maker 2",
@@ -78,7 +78,7 @@
     "console": "Nintendo Switch",
     "maxPlayerNumber": 4,
     "onlinePlay": true,
-    "playableCharacters": []
+    "playableCharacters": ["Mario"]
   },
   {
     "name": "Super Mario World",
@@ -87,6 +87,6 @@
     "console": "Super NES",
     "maxPlayerNumber": 2,
     "onlinePlay": false,
-    "playableCharacters": []
+    "playableCharacters": ["Mario"]
   }
 ]

@@ -23,7 +23,7 @@ db.on("connected", () => {
           )
         )
       : console.log(
-          chalk.greenBright(
+          chalk.yellow(
             `Express server running in development on: http://localhost:${PORT}`
           )
         );

@@ -7,7 +7,7 @@ let Character = new Schema({
   firstAppearance: { type: String },
   goodGuy: { type: Boolean },
   species: { type: String },
-  description: { type: String },
+  description: { type: String }
 });
 
 export default mongoose.model("characters", Character);

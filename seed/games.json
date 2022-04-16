@@ -5,7 +5,15 @@
     "console": "Nintendo 64",
     "maxPlayerNumber": 4,
     "onlinePlay": false,
-    "playableCharacters": []
+    "playableCharacters": [
+      "Mario",
+      "Luigi",
+      "Toad",
+      "Peach",
+      "Yoshi",
+      "Bowser",
+      "Donkey Kong"
+    ]
   },
   {
     "name": "Donkey Kong",
@@ -13,7 +21,9 @@
     "console": "Arcade",
     "maxPlayerNumber": 1,
     "onlinePlay": false,
-    "playableCharacters": []
+    "playableCharacters": [
+      "Mario"
+    ]
   },
   {
     "name": "Mario Bros",
@@ -21,7 +31,10 @@
     "console": "NES",
     "maxPlayerNumber": 2,
     "onlinePlay": false,
-    "playableCharacters": []
+    "playableCharacters": [
+      "Mario",
+      "Luigi"
+    ]
   },
   {
     "name": "Super Mario Bros",
@@ -29,7 +42,10 @@
     "console": "NES",
     "maxPlayerNumber": 2,
     "onlinePlay": false,
-    "playableCharacters": []
+    "playableCharacters": [
+      "Mario",
+      "Luigi"
+    ]
   },
   {
     "name": "Smash Bros Melee",
@@ -37,7 +53,14 @@
     "console": "Gamecube",
     "maxPlayerNumber": 4,
     "onlinePlay": false,
-    "playableCharacters": []
+    "playableCharacters": [
+      "Mario",
+      "Luigi",
+      "Peach",
+      "Yoshi",
+      "Bowser",
+      "Donkey Kong"
+    ]
   },
   {
     "name": "Mario and Luigi: Bowser's Inside Story",
@@ -45,7 +68,10 @@
     "console": "Nintendo DS",
     "maxPlayerNumber": 1,
     "onlinePlay": false,
-    "playableCharacters": []
+    "playableCharacters": [
+      "Mario",
+      "Luigi"
+    ]
   },
   {
     "name": "Mario Tennis Aces",
@@ -53,7 +79,17 @@
     "console": "Nintendo Switch",
     "maxPlayerNumber": 4,
     "onlinePlay": true,
-    "playableCharacters": []
+    "playableCharacters": [
+      "Mario",
+      "Luigi",
+      "Toad",
+      "Peach",
+      "Yoshi",
+      "Bowser",
+      "Donkey Kong",
+      "Daisy",
+      "Waluigi"
+    ]
   },
   {
     "name": "Super Princess Peach",
@@ -61,7 +97,9 @@
     "console": "Nintendo DS",
     "maxPlayerNumber": 1,
     "onlinePlay": false,
-    "playableCharacters": []
+    "playableCharacters": [
+      "Peach"
+    ]
   },
   {
     "name": "Super Mario Maker 2",
@@ -69,7 +107,11 @@
     "console": "Nintendo Switch",
     "maxPlayerNumber": 4,
     "onlinePlay": true,
-    "playableCharacters": []
+    "playableCharacters": [
+      "Mario",
+      "Luigi",
+      "Toad"
+    ]
   },
   {
     "name": "Super Mario World",
@@ -77,6 +119,9 @@
     "console": "Super NES",
     "maxPlayerNumber": 2,
     "onlinePlay": false,
-    "playableCharacters": []
+    "playableCharacters": [
+      "Mario",
+      "Luigi"
+    ]
   }
 ]

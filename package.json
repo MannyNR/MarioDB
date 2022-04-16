@@ -8,6 +8,7 @@
   "dev": "nodemon server.js",
   "db:seed": "node seed/data.js"
  },
+ "type": "module",
  "dependencies": {
   "chalk": "^5.0.1",
   "cors": "^2.8.5",

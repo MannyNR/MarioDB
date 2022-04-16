@@ -1,14 +1,20 @@
 {
- "scripts": {
+  "name": "mariodb",
+  "version": "1.0.0",
+  "description": "A joint MERN stack project between Linkevin1997, LyndonYRB and myself about Mario games and its characters.",
+  "main": "index.js",
+  "scripts": {
   "start": "node server.js",
   "dev": "nodemon server.js",
   "db:seed": "node seed/data.js"
  },
- "devDependencies": {
-  "nodemon": "^2.0.15"
- },
  "dependencies": {
   "chalk": "^5.0.1",
-  "cors": "^2.8.5"
+  "cors": "^2.8.5",
+  "express": "^4.17.3",
+  "mongoose": "^6.3.0"
+ },
+ "devDependencies": {
+  "nodemon": "^2.0.15"
  }
 }

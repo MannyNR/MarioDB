@@ -6,7 +6,18 @@ import games from "./games.json" assert { type: "json" };
 
 const insertData = async () => {
   db.dropDatabase();
-
+  
+  let addCharacter = [];
+  for (let i = 0; i < characters.length; i++) {
+    addCharacter.push({
+      name: characters[i].name,
+      image: characters[i].image,
+      firstAppearance: characters[i].firstAppearance,
+      goodGuy: characters[i].goodGuy,
+      species: characters[i].species,
+      description: characters[i].description,
+    })
+  }
   await Character.insertMany(characters);
 
   await Game.insertMany(games);

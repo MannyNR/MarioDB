@@ -20,7 +20,7 @@ export default function GameDetails() {
   return (
     <div>
       <h1>{game.name}</h1>
-      <p>{game.image} </p>
+      <img src={game.image} />
       <p>{game.yearRelease} </p>
       <p>{game.console} </p>
       <p>{game.maxPlayerNumber} </p>

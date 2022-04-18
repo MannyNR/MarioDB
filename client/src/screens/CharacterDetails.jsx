@@ -7,7 +7,7 @@ import React from "react";
 export default function CharacterDetails() {
   const [character, setCharacter] = useState({});
   let { id } = useParams();
-  let navigate = useNavigate()
+  let navigate = useNavigate();
 
   useEffect(() => {
     const fetchCharacter = async () => {
@@ -20,7 +20,7 @@ export default function CharacterDetails() {
   return (
     <div>
       <h1>{character.name}</h1>
-      <p>{character.image} </p>
+      <img src={character.image} />
       <p>{character.firstAppearance} </p>
       <p>{character.goodGuy} </p>
       <p>{character.species} </p>

@@ -14,6 +14,7 @@ export default function GameEdit() {
   });
 
   const { id } = useParams();
+  let navigate = useNavigate();
 
   useEffect(() => {
     const fetchGame = async () => {
@@ -34,7 +35,7 @@ export default function GameEdit() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     await updateGame(game);
-    useNavigate("/games", { replace: true });
+    navigate("/games", { replace: true });
   };
 
   return (

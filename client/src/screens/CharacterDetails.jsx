@@ -7,6 +7,7 @@ import React from "react";
 export default function CharacterDetails() {
   const [character, setCharacter] = useState({});
   let { id } = useParams();
+  let navigate = useNavigate()
 
   useEffect(() => {
     const fetchCharacter = async () => {
@@ -31,7 +32,7 @@ export default function CharacterDetails() {
         <button
           onClick={() => {
             deleteCharacter(character._id);
-            useNavigate("/characters", { replace: true });
+            navigate("/characters", { replace: true });
           }}>
           {" "}
           Delete Character{" "}

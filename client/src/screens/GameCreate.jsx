@@ -13,6 +13,8 @@ export default function GameCreate() {
     playableCharacters: "",
   });
 
+  let navigate = useNavigate();
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setGame({
@@ -24,7 +26,7 @@ export default function GameCreate() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     await createGame(game);
-    useNavigate("/games", { replace: true });
+    navigate("/games", { replace: true });
   };
 
   return (

@@ -12,7 +12,9 @@ export default function CharacterEdit() {
     description: "",
   });
 
+  let navigate = useNavigate()
   const { id } = useParams();
+  
   useEffect(() => {
     const fetchCharacter = async () => {
       let thisCharacter = await getCharacter(id);
@@ -32,7 +34,7 @@ export default function CharacterEdit() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     await updateCharacter(character);
-    useNavigate("/characters", { replace: true });
+    navigate("/characters", { replace: true });
   };
 
   return (

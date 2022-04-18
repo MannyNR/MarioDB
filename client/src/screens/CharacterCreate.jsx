@@ -12,6 +12,8 @@ export default function CharacterCreate() {
     description: "",
   });
 
+  let navigate = useNavigate()
+  
   const handleChange = (e) => {
     const { name, value } = e.target;
     setCharacter({
@@ -23,7 +25,7 @@ export default function CharacterCreate() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     await createCharacter(character);
-    useNavigate("/characters", { replace: true });
+    navigate("/characters", { replace: true });
   };
 
   return (

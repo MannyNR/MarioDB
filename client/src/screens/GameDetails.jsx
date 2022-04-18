@@ -7,6 +7,7 @@ import React from "react";
 export default function GameDetails() {
   const [game, setGame] = useState({});
   let { id } = useParams();
+  let navigate = useNavigate();
 
   useEffect(() => {
     const fetchGame = async () => {
@@ -32,7 +33,7 @@ export default function GameDetails() {
         <button
           onClick={() => {
             deleteGame(game._id);
-            useNavigate("/games", { replace: true });
+            navigate("/games", { replace: true });
           }}>
           {" "}
           Delete Game{" "}

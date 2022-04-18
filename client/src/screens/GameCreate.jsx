@@ -74,7 +74,7 @@ export default function GameCreate() {
         onChange={handleChange}
       />
 
-      <button type="submit"> Submit New Character </button>
+      <button type="submit"> Submit New Game </button>
     </form>
   );
 }

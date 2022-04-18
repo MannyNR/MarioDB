@@ -20,10 +20,10 @@ export default function CharacterDetails() {
   return (
     <div>
       <h1>{character.name}</h1>
-      <span>{character.image} </span>
-      <span>{character.firstAppearance} </span>
-      <span>{character.goodGuy} </span>
-      <span>{character.species} </span>
+      <p>{character.image} </p>
+      <p>{character.firstAppearance} </p>
+      <p>{character.goodGuy} </p>
+      <p>{character.species} </p>
       <p>{character.description} </p>
       <div>
         <button>

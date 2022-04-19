@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { getCharacters } from "../services/characters.js";
 import Character from "../components/Character.jsx";
 

@@ -1,5 +1,5 @@
+import React, { useState } from "react";
 import { createCharacter } from "../services/characters";
-import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 export default function CharacterCreate() {

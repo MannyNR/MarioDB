@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { deleteGame, getGame } from "../services/games";
 import { Link, useParams, useNavigate } from "react-router-dom";
 

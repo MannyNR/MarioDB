@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import React from "react";
 import { GameLink } from "react-router-dom"
 export default function GameList(props) {
 

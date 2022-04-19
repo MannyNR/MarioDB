@@ -1,8 +1,6 @@
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { deleteCharacter, getCharacter } from "../services/characters";
 import { Link, useParams, useNavigate } from "react-router-dom";
-
-import React from "react";
 
 export default function CharacterDetails() {
   const [character, setCharacter] = useState({});
@@ -24,11 +22,15 @@ export default function CharacterDetails() {
       <p>
         <label htmlfor="firstAppearance">
           {" "}
-          First appearance: {character.firstAppearance} </label>
+          First appearance: {character.firstAppearance}{" "}
+        </label>
       </p>
 
       <p>
-        <label htmlfor="goodGuy"> Is character good or bad? {character.goodGuy} </label>
+        <label htmlfor="goodGuy">
+          {" "}
+          Is character good or bad? {character.goodGuy}{" "}
+        </label>
       </p>
 
       <p>
@@ -47,7 +49,9 @@ export default function CharacterDetails() {
           onClick={() => {
             deleteCharacter(character._id);
             navigate("/characters", { replace: true });
-          }}> Delete Character 
+          }}>
+          {" "}
+          Delete Character
         </button>
       </div>
     </div>

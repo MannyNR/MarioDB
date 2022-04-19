@@ -20,12 +20,36 @@ export default function GameDetails() {
   return (
     <div>
       <h1>{game.name}</h1>
-      <img src={game.image} />
-      <p>{game.yearRelease} </p>
-      <p>{game.console} </p>
-      <p>{game.maxPlayerNumber} </p>
-      <p>{game.onlinePlay} </p>
-      <p>{game.playableCharacters} </p>
+      <img src={game.image} alt="Game" />
+      <p>
+        <label htmlfor="yearRelease">
+          {" "}
+          Year of release:{game.yearRelease}{" "}
+        </label>
+      </p>
+
+      <p>
+        <label htmlfor="console"> Game console: {game.console} </label>
+      </p>
+
+      <p>
+        <label htmlfor="maxPlayerNumber">
+          {" "}
+          Max number of players: {game.maxPlayerNumber}{" "}
+        </label>
+      </p>
+
+      <p>
+        <label htmlfor="onlinePlay"> Playable online? {game.onlinePlay} </label>
+      </p>
+
+      <p>
+        <label htmlfor="playableCharacters">
+          {" "}
+          Playable characters: {game.playableCharacters}{" "}
+        </label>
+      </p>
+
       <div>
         <button>
           <Link to={`/games/${game._id}/edit`}> Edit Game </Link>

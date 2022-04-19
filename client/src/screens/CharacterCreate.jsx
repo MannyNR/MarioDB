@@ -12,8 +12,8 @@ export default function CharacterCreate() {
     description: "",
   });
 
-  let navigate = useNavigate()
-  
+  let navigate = useNavigate();
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setCharacter({
@@ -30,44 +30,58 @@ export default function CharacterCreate() {
 
   return (
     <form onSubmit={handleSubmit}>
-      <input
-        autoFocus
-        required
-        placeholder="Name of Character"
-        name="name"
-        value={character.name}
-        onChange={handleChange}
-      />
+      <div>
+        <label htmlfor="name"> Name of Character: </label>
+        <input
+          autoFocus
+          required
+          placeholder="Name"
+          name="name"
+          value={character.name}
+          onChange={handleChange}
+        />
+      </div>
 
-      <input
-        required
-        placeholder="Link to Character image"
-        name="image"
-        value={character.image}
-        onChange={handleChange}
-      />
+      <div>
+        <label htmlfor="image"> Link to character's image: </label>
+        <input
+          required
+          placeholder="Link to image"
+          name="image"
+          value={character.image}
+          onChange={handleChange}
+        />
+      </div>
 
-      <input
-        placeholder="Character's first appearance"
-        name="firstAppearance"
-        value={character.firstAppearance}
-        onChange={handleChange}
-      />
+      <div>
+        <label htmlfor="firstAppearance"> Character's first appearance: </label>
+        <input
+          placeholder="First appearance"
+          name="firstAppearance"
+          value={character.firstAppearance}
+          onChange={handleChange}
+        />
+      </div>
 
-      <input
-        placeholder="Character's species"
-        name="species"
-        value={character.species}
-        onChange={handleChange}
-      />
+      <div>
+        <label htmlfor="species"> Character's species: </label>
+        <input
+          placeholder="Species"
+          name="species"
+          value={character.species}
+          onChange={handleChange}
+        />
+      </div>
 
-      <input
-        placeholder="Character's description"
-        name="description"
-        value={character.description}
-        onChange={handleChange}
-      />
-
+      <div>
+        <label htmlfor="description"> Character's description: </label>
+        <input
+          placeholder="Character's description"
+          name="description"
+          value={character.description}
+          onChange={handleChange}
+        />
+      </div>
       <button type="submit"> Submit New Character </button>
     </form>
   );

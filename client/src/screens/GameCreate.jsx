@@ -31,50 +31,68 @@ export default function GameCreate() {
 
   return (
     <form onSubmit={handleSubmit}>
-      <input
-        autoFocus
-        required
-        placeholder="Name of Game"
-        name="name"
-        value={game.name}
-        onChange={handleChange}
-      />
+      <div>
+        <label htmlfor="name"> Name of game: </label>
+        <input
+          autoFocus
+          required
+          placeholder="Name"
+          name="name"
+          value={game.name}
+          onChange={handleChange}
+        />
+      </div>
 
-      <input
-        required
-        placeholder="Link to Game image"
-        name="image"
-        value={game.image}
-        onChange={handleChange}
-      />
+      <div>
+        <label htmlfor="image"> Link to image of game: </label>
+        <input
+          required
+          placeholder="Link to image"
+          name="image"
+          value={game.image}
+          onChange={handleChange}
+        />
+      </div>
 
-      <input
-        placeholder="Game's release year"
-        name="yearRelease"
-        value={game.yearRelease}
-        onChange={handleChange}
-      />
+      <div>
+        <label htmlfor="yearRelease"> Game's release year: </label>
+        <input
+          placeholder="Year of release"
+          name="yearRelease"
+          value={game.yearRelease}
+          onChange={handleChange}
+        />
+      </div>
 
-      <input
-        placeholder="Game console"
-        name="console"
-        value={game.console}
-        onChange={handleChange}
-      />
+      <div>
+        <label htmlfor="console"> Game console: </label>
+        <input
+          placeholder="Game console"
+          name="console"
+          value={game.console}
+          onChange={handleChange}
+        />
+      </div>
 
-      <input
-        placeholder="Max number of player(s) for game"
-        name="maxPlayerNumber"
-        value={game.maxPlayerNumber}
-        onChange={handleChange}
-      />
+      <div>
+        <label htmlfor="maxPlayerNumber"> Max number of players: </label>
+        <input
+          placeholder="Max number of player(s)"
+          name="maxPlayerNumber"
+          value={game.maxPlayerNumber}
+          onChange={handleChange}
+        />
+      </div>
 
-      <input
-        placeholder="Playable Character(s)"
-        name="playableCharacters"
-        value={game.playableCharacters}
-        onChange={handleChange}
-      />
+      <div>
+        <label htmlfor="playableCharacters"> Playable Characters: </label>
+        <input
+          placeholder="Playable Character(s)"
+          name="playableCharacters"
+          value={game.playableCharacters}
+          onChange={handleChange}
+        />
+      </div>
 
       <button type="submit"> Submit New Game </button>
     </form>

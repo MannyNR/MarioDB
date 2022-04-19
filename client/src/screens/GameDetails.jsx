@@ -1,17 +1,32 @@
 import React, { useState, useEffect } from "react";
 import { deleteGame, getGame } from "../services/games";
 import { Link, useParams, useNavigate } from "react-router-dom";
+import Character from "../components/Character";
 
-export default function GameDetails() {
+export default function GameDetails({ characters }) {
   const [game, setGame] = useState({});
+  const [gameCharacters, setGameCharacters] = useState([]);
   let { id } = useParams();
   let navigate = useNavigate();
 
   useEffect(() => {
     const fetchGame = async () => {
       let thisGame = await getGame(id);
+
+      let gameChars = [];
+
+      thisGame.playableCharacters.forEach((player) => {
+        characters.forEach((character) => {
+          if (character.name === player) {
+            gameChars.push(character);
+          }
+        });
+      });
+
       setGame(thisGame);
+      setGameCharacters(gameChars);
     };
+
     fetchGame();
   }, [id]);
 
@@ -38,7 +53,10 @@ export default function GameDetails() {
       </p>
 
       <p>
-        <label htmlfor="onlinePlay"> Playable online? {game.onlinePlay} </label>
+        <label htmlfor="onlinePlay">
+          {" "}
+          Playable online? {game.onlinePlay ? "Yes" : "No"}{" "}
+        </label>
       </p>
 
       <p>
@@ -47,6 +65,8 @@ export default function GameDetails() {
           Playable characters: {game.playableCharacters}{" "}
         </label>
       </p>
+      {gameCharacters.length &&
+        gameCharacters.map((char) => <Character character={char} />)}
 
       <div>
         <button>

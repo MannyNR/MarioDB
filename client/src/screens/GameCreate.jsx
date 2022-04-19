@@ -9,7 +9,7 @@ export default function GameCreate() {
     yearRelease: Number,
     console: "",
     maxPlayerNumber: Number,
-    onlinePlay: false,
+    onlinePlay: Boolean,
     playableCharacters: "",
   });
 
@@ -80,6 +80,16 @@ export default function GameCreate() {
           placeholder="Max number of player(s)"
           name="maxPlayerNumber"
           value={game.maxPlayerNumber}
+          onChange={handleChange}
+        />
+      </div>
+
+      <div>
+        <label htmlfor="onlinePlay"> Playable Online? </label>
+        <input
+          placeholder="Enter true or false"
+          name="onlinePlay"
+          value={game.onlinePlay}
           onChange={handleChange}
         />
       </div>

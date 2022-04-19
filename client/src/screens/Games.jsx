@@ -17,7 +17,7 @@ export default function Games() {
     <div>
       <h1> Games: </h1>
       {games.map((gameData) => (
-        <Game key={gameData.name} game={gameData} />
+        <Game key={gameData._id} game={gameData} />
       ))}
     </div>
   );

@@ -73,6 +73,16 @@ export default function CharacterEdit() {
       </div>
 
       <div>
+        <label htmlfor="goodGuy"> Is character a hero? </label>
+        <input
+          placeholder="true if good, false if bad"
+          name="goodGuy"
+          value={character.goodGuy}
+          onChange={handleChange}
+        />
+      </div>
+
+      <div>
         <label htmlfor="species"> Character's species: </label>
         <input
           placeholder="Character's species"

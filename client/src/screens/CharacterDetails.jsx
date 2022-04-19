@@ -29,7 +29,7 @@ export default function CharacterDetails() {
       <p>
         <label htmlfor="goodGuy">
           {" "}
-          Is character good or bad? {character.goodGuy}{" "}
+          Is character a hero? {character.goodGuy}{" "}
         </label>
       </p>
 

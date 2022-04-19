@@ -17,7 +17,7 @@ export default function Characters() {
     <div>
       <h1> Characters: </h1>
       {characters.map((characterData) => (
-        <Character key={characterData.name} character={characterData} />
+        <Character key={characterData._id} character={characterData} />
       ))}
     </div>
   );

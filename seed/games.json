@@ -6,7 +6,7 @@
     "console": "Nintendo 64",
     "maxPlayerNumber": 4,
     "onlinePlay": false,
-    "playableCharacters": ["Mario"]
+    "playableCharacters": ["Mario", "Luigi", "Toad", "Bowser", "Yoshi", "Donkey Kong", "Princess Peach"]
   },
   {
     "name": "Donkey Kong",
@@ -15,7 +15,7 @@
     "console": "Arcade",
     "maxPlayerNumber": 1,
     "onlinePlay": false,
-    "playableCharacters": ["Donkey Kong"]
+    "playableCharacters": ["Donkey Kong", "Mario"]
   },
   {
     "name": "Mario Bros",
@@ -24,7 +24,7 @@
     "console": "NES",
     "maxPlayerNumber": 2,
     "onlinePlay": false,
-    "playableCharacters": ["Mario"]
+    "playableCharacters": ["Mario", "Luigi"]
   },
   {
     "name": "Super Mario Bros",
@@ -33,7 +33,7 @@
     "console": "NES",
     "maxPlayerNumber": 2,
     "onlinePlay": false,
-    "playableCharacters": ["Mario"]
+    "playableCharacters": ["Mario", "Luigi"]
   },
   {
     "name": "Smash Bros Melee",
@@ -42,7 +42,7 @@
     "console": "Gamecube",
     "maxPlayerNumber": 4,
     "onlinePlay": false,
-    "playableCharacters": ["Mario"]
+    "playableCharacters": ["Mario", "Luigi", "Bowser", "Yoshi", "Donkey Kong", "Princess Peach"]
   },
   {
     "name": "Mario and Luigi: Bowser's Inside Story",
@@ -51,7 +51,7 @@
     "console": "Nintendo DS",
     "maxPlayerNumber": 1,
     "onlinePlay": false,
-    "playableCharacters": ["Mario"]
+    "playableCharacters": ["Mario", "Luigi", "Bowser"]
   },
   {
     "name": "Mario Tennis Aces",
@@ -60,7 +60,7 @@
     "console": "Nintendo Switch",
     "maxPlayerNumber": 4,
     "onlinePlay": true,
-    "playableCharacters": ["Mario"]
+    "playableCharacters": ["Mario", "Luigi", "Toad", "Bowser", "Yoshi", "Donkey Kong", "Princess Peach", "Diddy Kong", "Waluigi","Daisy"]
   },
   {
     "name": "Super Princess Peach",
@@ -78,7 +78,7 @@
     "console": "Nintendo Switch",
     "maxPlayerNumber": 4,
     "onlinePlay": true,
-    "playableCharacters": ["Mario"]
+    "playableCharacters": ["Mario", "Luigi", "Toad"]
   },
   {
     "name": "Super Mario World",
@@ -87,6 +87,6 @@
     "console": "Super NES",
     "maxPlayerNumber": 2,
     "onlinePlay": false,
-    "playableCharacters": ["Mario"]
+    "playableCharacters": ["Mario", "Luigi"]
   }
 ]

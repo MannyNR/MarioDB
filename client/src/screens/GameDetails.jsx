@@ -35,32 +35,32 @@ export default function GameDetails({ characters }) {
       <h1>{game.name}</h1>
       <img src={game.image} alt="Game" />
       <p>
-        <label htmlfor="yearRelease">
+        <label htmlFor="yearRelease">
           {" "}
           Year of release:{game.yearRelease}{" "}
         </label>
       </p>
 
       <p>
-        <label htmlfor="console"> Game console: {game.console} </label>
+        <label htmlFor="console"> Game console: {game.console} </label>
       </p>
 
       <p>
-        <label htmlfor="maxPlayerNumber">
+        <label htmlFor="maxPlayerNumber">
           {" "}
           Max number of players: {game.maxPlayerNumber}{" "}
         </label>
       </p>
 
       <p>
-        <label htmlfor="onlinePlay">
+        <label htmlFor="onlinePlay">
           {" "}
           Playable online? {game.onlinePlay ? "Yes" : "No"}{" "}
         </label>
       </p>
 
       <p>
-        <label htmlfor="playableCharacters">
+        <label htmlFor="playableCharacters">
           {" "}
           Playable characters: {game.playableCharacters}{" "}
         </label>

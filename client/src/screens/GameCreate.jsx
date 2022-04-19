@@ -32,7 +32,7 @@ export default function GameCreate() {
   return (
     <form onSubmit={handleSubmit}>
       <div>
-        <label htmlfor="name"> Name of game: </label>
+        <label htmlFor="name"> Name of game: </label>
         <input
           autoFocus
           required
@@ -44,7 +44,7 @@ export default function GameCreate() {
       </div>
 
       <div>
-        <label htmlfor="image"> Link to image of game: </label>
+        <label htmlFor="image"> Link to image of game: </label>
         <input
           required
           placeholder="Link to image"
@@ -55,7 +55,7 @@ export default function GameCreate() {
       </div>
 
       <div>
-        <label htmlfor="yearRelease"> Game's release year: </label>
+        <label htmlFor="yearRelease"> Game's release year: </label>
         <input
           placeholder="Year of release"
           name="yearRelease"
@@ -65,7 +65,7 @@ export default function GameCreate() {
       </div>
 
       <div>
-        <label htmlfor="console"> Game console: </label>
+        <label htmlFor="console"> Game console: </label>
         <input
           placeholder="Game console"
           name="console"
@@ -75,7 +75,7 @@ export default function GameCreate() {
       </div>
 
       <div>
-        <label htmlfor="maxPlayerNumber"> Max number of players: </label>
+        <label htmlFor="maxPlayerNumber"> Max number of players: </label>
         <input
           placeholder="Max number of player(s)"
           name="maxPlayerNumber"
@@ -85,7 +85,7 @@ export default function GameCreate() {
       </div>
 
       <div>
-        <label htmlfor="onlinePlay"> Playable Online? </label>
+        <label htmlFor="onlinePlay"> Playable Online? </label>
         <input
           placeholder="Enter true or false"
           name="onlinePlay"
@@ -95,7 +95,7 @@ export default function GameCreate() {
       </div>
 
       <div>
-        <label htmlfor="playableCharacters"> Playable Characters: </label>
+        <label htmlFor="playableCharacters"> Playable Characters: </label>
         <input
           placeholder="Playable Character(s)"
           name="playableCharacters"

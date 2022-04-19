@@ -41,7 +41,7 @@ export default function GameEdit() {
   return (
     <form onSubmit={handleSubmit}>
       <div>
-        <label htmlfor="name"> Name of game: </label>
+        <label htmlFor="name"> Name of game: </label>
         <input
           autoFocus
           required
@@ -53,7 +53,7 @@ export default function GameEdit() {
       </div>
 
       <div>
-        <label htmlfor="image"> Link to image of game: </label>
+        <label htmlFor="image"> Link to image of game: </label>
         <input
           required
           placeholder="Link to Game image"
@@ -64,7 +64,7 @@ export default function GameEdit() {
       </div>
 
       <div>
-        <label htmlfor="yearRelease"> Game's release year: </label>
+        <label htmlFor="yearRelease"> Game's release year: </label>
         <input
           placeholder="Game's release year"
           name="yearRelease"
@@ -74,7 +74,7 @@ export default function GameEdit() {
       </div>
 
       <div>
-        <label htmlfor="console"> Game console: </label>
+        <label htmlFor="console"> Game console: </label>
         <input
           placeholder="Game console"
           name="console"
@@ -84,7 +84,7 @@ export default function GameEdit() {
       </div>
 
       <div>
-        <label htmlfor="maxPlayerNumber">
+        <label htmlFor="maxPlayerNumber">
           {" "}
           Max number of players for game:{" "}
         </label>
@@ -97,7 +97,7 @@ export default function GameEdit() {
       </div>
 
       <div>
-        <label htmlfor="onlinePlay"> Playable Online? </label>
+        <label htmlFor="onlinePlay"> Playable Online? </label>
         <input
           placeholder="Enter true or false"
           name="onlinePlay"
@@ -107,7 +107,7 @@ export default function GameEdit() {
       </div>
 
       <div>
-        <label htmlfor="playableCharacters"> Playable Characters: </label>
+        <label htmlFor="playableCharacters"> Playable Characters: </label>
         <input
           placeholder="Playable Character(s)"
           name="playableCharacters"

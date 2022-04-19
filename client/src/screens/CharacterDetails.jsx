@@ -20,25 +20,25 @@ export default function CharacterDetails() {
       <h1>{character.name}</h1>
       <img src={character.image} alt="Game" />
       <p>
-        <label htmlfor="firstAppearance">
+        <label htmlFor="firstAppearance">
           {" "}
           First appearance: {character.firstAppearance}{" "}
         </label>
       </p>
 
       <p>
-        <label htmlfor="goodGuy">
+        <label htmlFor="goodGuy">
           {" "}
           Is character a hero? {character.goodGuy ? "Yes" : "No"}{" "}
         </label>
       </p>
 
       <p>
-        <label htmlfor="species"> Species? {character.species} </label>
+        <label htmlFor="species"> Species? {character.species} </label>
       </p>
 
       <p>
-        <label htmlfor="description"> Bio: {character.description} </label>
+        <label htmlFor="description"> Bio: {character.description} </label>
       </p>
 
       <div>

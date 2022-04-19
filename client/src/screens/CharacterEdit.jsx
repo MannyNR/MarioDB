@@ -40,7 +40,7 @@ export default function CharacterEdit() {
   return (
     <form onSubmit={handleSubmit}>
       <div>
-        <label htmlfor="name"> Name of Character: </label>
+        <label htmlFor="name"> Name of Character: </label>
         <input
           autoFocus
           required
@@ -52,7 +52,7 @@ export default function CharacterEdit() {
       </div>
 
       <div>
-        <label htmlfor="image"> Link to character's image: </label>
+        <label htmlFor="image"> Link to character's image: </label>
         <input
           required
           placeholder="Link to Character image"
@@ -63,7 +63,7 @@ export default function CharacterEdit() {
       </div>
 
       <div>
-        <label htmlfor="firstAppearance"> Character's first appearance: </label>
+        <label htmlFor="firstAppearance"> Character's first appearance: </label>
         <input
           placeholder="Character's first appearance"
           name="firstAppearance"
@@ -73,7 +73,7 @@ export default function CharacterEdit() {
       </div>
 
       <div>
-        <label htmlfor="goodGuy"> Is character a hero? </label>
+        <label htmlFor="goodGuy"> Is character a hero? </label>
         <input
           placeholder="true if good, false if bad"
           name="goodGuy"
@@ -83,7 +83,7 @@ export default function CharacterEdit() {
       </div>
 
       <div>
-        <label htmlfor="species"> Character's species: </label>
+        <label htmlFor="species"> Character's species: </label>
         <input
           placeholder="Character's species"
           name="species"
@@ -93,7 +93,7 @@ export default function CharacterEdit() {
       </div>
 
       <div>
-        <label htmlfor="description"> Character's description: </label>
+        <label htmlFor="description"> Character's description: </label>
         <input
           placeholder="Character's description"
           name="description"

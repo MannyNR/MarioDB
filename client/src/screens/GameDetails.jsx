@@ -2,8 +2,6 @@ import React, { useState, useEffect } from "react";
 import { deleteGame, getGame } from "../services/games";
 import { Link, useParams, useNavigate } from "react-router-dom";
 
-import React from "react";
-
 export default function GameDetails() {
   const [game, setGame] = useState({});
   let { id } = useParams();

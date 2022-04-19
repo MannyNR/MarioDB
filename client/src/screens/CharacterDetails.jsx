@@ -24,17 +24,11 @@ export default function CharacterDetails() {
       <p>
         <label htmlfor="firstAppearance">
           {" "}
-          First appearance: {character.firstAppearance}{" "}
-        </label>
+          First appearance: {character.firstAppearance} </label>
       </p>
 
       <p>
-        <label htmlfor="goodGuy">
-          {" "}
-          Is character good or bad? (Type in true or false): {
-            character.goodGuy
-          }{" "}
-        </label>
+        <label htmlfor="goodGuy"> Is character good or bad? {character.goodGuy} </label>
       </p>
 
       <p>
@@ -53,9 +47,7 @@ export default function CharacterDetails() {
           onClick={() => {
             deleteCharacter(character._id);
             navigate("/characters", { replace: true });
-          }}>
-          {" "}
-          Delete Character{" "}
+          }}> Delete Character 
         </button>
       </div>
     </div>

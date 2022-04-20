@@ -14,7 +14,7 @@ export default function Games() {
   }, []);
 
   return (
-    <div>
+    <div className="dashboard">
       <h1> Games: </h1>
       {games.map((gameData) => (
         <Game key={gameData._id} game={gameData} />

@@ -4,7 +4,7 @@ import React from "react";
 export default function Nav() {
   return (
     <nav>
-      <div>
+      <div className="button">
         <NavLink to="/"> Home </NavLink>
         <div>
           <NavLink to="/characters"> All Characters </NavLink>

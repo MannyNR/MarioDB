@@ -3,8 +3,8 @@ import image from "./mariogroup.jpeg";
 
 const Home = () => {
   return (
-    <div>
-      <p>It's me Mario! Welcome to our site!</p>
+    <div className="dashboard">
+      <p className="welcome-text">It's me Mario! Welcome to our site!</p>
       <img src={image} alt="" />
     </div>
   );

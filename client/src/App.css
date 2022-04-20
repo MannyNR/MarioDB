@@ -11,3 +11,40 @@ img {
   height: clamp(400px, 50vw, 600px);
   width: clamp(500px, 50vw, 800px);
 }
+
+.dashboard{
+  background-color: rgba(202, 201, 201, 0.357);
+  list-style-type:none;
+  grid-column: 1 ;
+  grid-row: 1 / span 2;
+  margin: 5px;
+  outline: 1px;
+}
+
+.welcome-text{
+  font-size:  40px;
+  color: rgb(14, 13, 13)
+}
+
+.button {
+  padding:5px;
+  background-color: #050505;
+  border: 1px solid #666;
+  color:rgb(244, 239, 239);
+  text-decoration:none;
+  font-size: 40px;
+  
+}
+
+.button a {
+color: rgb(244, 239, 239);
+}
+
+a{
+  font-weight:bold;
+
+}
+
+label{
+  font-size: 20px;
+}

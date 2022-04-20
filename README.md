@@ -34,3 +34,18 @@ To view documentation for the endpoints locally, navigate to http://localhost:30
 - [@Kevin Lin](https://github.com/Linkevin1997)
 - [@Emmanuel Nunez](https://github.com/MannyNR)
 - [@Lyndon St.Luce](https://github.com/LyndonYRB)
+
+## Try adding Wario!
+
+Go to "Add Character Link" input the following info:
+
+Name of Character: "Wario"
+Link to character's image (copy and paster this): " https://mario.wiki.gallery/images/thumb/2/29/SMPWario.png/1200px-SMPWario.png "
+Character's first appearance: "Super Mario Land 2"
+Is character a hero?: "false"
+Character's species: "Human"
+Character's description: " Mario's rival. "
+
+
+
+

@@ -2,7 +2,7 @@
 
 A basic REST API for managing Mario Bros franchise data. The API returns data related to Mario characters, games, and their console platforms.
 
-The main characters of the API is Mario, Luigi, Princess Peach, Toad, Bowser, Diddy Kong, Donkey Kong, Waluigi, Yoshi, and Daisy.
+The main characters of the API are Mario, Luigi, Princess Peach, Toad, Bowser, Diddy Kong, Donkey Kong, Waluigi, Yoshi, and Daisy.
 
 The main game of the API, our group is focusing is Mario Kart 64, Mario Bros, Donkey Kong, and Super Mario Bros, Smash Bros Melee,Mario and Luigi: Bowser's Inside Story, Mario Tennis Aces, Super Princess Peach, Super Mario Maker 2, and Super Mario World
 
@@ -19,8 +19,11 @@ The purpose of this project is to get familiar with Express and Mongoose and Rea
 git clone https://github.com/MannyNR/MarioDB.git
 
 ```bash
-  npm install MarioDB
   cd MarioDB
+  npm install
+  npm run dev
+  cd client
+  npm install
   npm start
 ```
 

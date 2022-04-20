@@ -11,3 +11,28 @@ img {
   height: clamp(400px, 50vw, 600px);
   width: clamp(500px, 50vw, 800px);
 }
+.gamelist {
+  align-items: flex-start;
+}
+.home-screen {
+display: flex;
+
+}
+.character-grid {
+
+}
+
+.character-box {
+position: relative;
+}
+.character-info-background{
+ 
+  
+}
+.character-info{
+
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: absolute;
+  top: 300px;
+  display: none;
+}

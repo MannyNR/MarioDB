@@ -2,7 +2,7 @@ import Game from "../models/game.js";
 
 export const getGames = async (req, res) => {
   try {
-    const games = await Game.find();
+    const games = await Game.find().populate("playableCharacters");
     res.json(games);
   } catch (error) {
     console.log(error);

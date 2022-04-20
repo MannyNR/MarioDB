@@ -13,6 +13,7 @@ import GameEdit from "./screens/GameEdit";
 import { Routes, Route } from "react-router-dom";
 import { getCharacters } from "./services/characters";
 
+
 function App() {
   const [characters, setCharacters] = useState([]);
 
@@ -28,7 +29,7 @@ function App() {
     <div className="App">
       <Nav />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home characters={characters} />} />
         <Route
           path="/characters"
           element={<Characters characters={characters} />}
@@ -44,6 +45,7 @@ function App() {
         <Route path="/games/:id/edit" element={<GameEdit />} />
         <Route path="/add-game" element={<GameCreate />} />
       </Routes>
+      
     </div>
   );
 }
